@@ -1,5 +1,5 @@
 // Modules
-const modules = ['@nuxtjs/google-fonts', '@nuxtjs/tailwindcss'];
+const modules = ['@nuxtjs/google-fonts', '@nuxtjs/tailwindcss', 'nuxt-headlessui'];
 
 // Fonts
 const googleFonts = {
@@ -15,9 +15,23 @@ const tailwindcss = {
    exposeConfig: true,
 };
 
+// HeadlessUI
+const headlessui = {
+   prefix: 'UI',
+};
+
+// Config
+const runtimeConfig = {
+   public: {
+      API: 'https://exampleAPI.com',
+   },
+};
+
 export default defineNuxtConfig({
    devtools: { enabled: false },
    googleFonts,
    modules,
    tailwindcss,
+   runtimeConfig,
+   headlessui,
 });
