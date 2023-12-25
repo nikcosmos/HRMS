@@ -27,6 +27,8 @@ clean up - описание не нужно
 ### Стили
 
 Работаем с https://tailwindcss.com
+<br/>
+Что бы увидеть все конфиги http://localhost:3000/\_tailwind/
 
 ### UI компоненты
 
