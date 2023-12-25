@@ -1,5 +1,9 @@
 <script setup></script>
 
 <template>
-   <div>Main Page</div>
+   <MainPageWelcome />
+   <MainPageBenefits />
+   <MainPagePricing />
+   <MainPageReview />
+   <MainPageFaq />
 </template>

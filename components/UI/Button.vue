@@ -1,5 +1,5 @@
 <script setup></script>
 
 <template>
-   <div>Footer</div>
+   <button type="button"><slot /></button>
 </template>
