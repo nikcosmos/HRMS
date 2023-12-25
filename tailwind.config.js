@@ -773,11 +773,10 @@ export default {
          150: '1.5',
       },
       screens: {
-         sm: '640px',
-         md: '768px',
-         lg: '1024px',
-         xl: '1280px',
-         '2xl': '1536px',
+         575: '575px',
+         768: '768px',
+         991: '991px',
+         1200: '1200px',
       },
       scrollMargin: ({ theme }) => ({
          ...theme('spacing'),

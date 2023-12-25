@@ -1,3 +1,7 @@
+# Пример лендоса для верстки
+
+https://nuxt-ui-pro-template-landing.vercel.app/
+
 # Правила работы
 
 <ol>
