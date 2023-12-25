@@ -1,10 +1,14 @@
 /** @type {import('tailwindcss').Config} */
+// TODO Добавить брейкпоинты 575,767,991,1200
 export default {
    content: [],
    presets: [],
    darkMode: 'class',
    theme: {
-      container: {},
+      container: {
+         center: true,
+         padding: '15px',
+      },
       fontFamily: {
          inter: [
             'Inter',

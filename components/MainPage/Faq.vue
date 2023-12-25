@@ -1,5 +1,5 @@
 <script setup></script>
 
 <template>
-   <div>Header</div>
+   <div class="container max-w-7xl">FAQ</div>
 </template>
