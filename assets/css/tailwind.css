@@ -1,0 +1,8 @@
+@tailwind base;
+@layer base {
+   body {
+      @apply font-inter text-16;
+   }
+}
+@tailwind components;
+@tailwind utilities;
