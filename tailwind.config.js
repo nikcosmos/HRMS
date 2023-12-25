@@ -4,7 +4,10 @@ export default {
    presets: [],
    darkMode: 'class',
    theme: {
-      container: {},
+      container: {
+         center: true,
+         padding: '15px',
+      },
       fontFamily: {
          inter: [
             'Inter',
