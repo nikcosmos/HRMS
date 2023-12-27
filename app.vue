@@ -18,10 +18,15 @@ useSeoMeta({
    ogImage: '',
    twitterCard: '',
 });
+// Store
+const store = useMainStore();
+const { theme } = storeToRefs(store);
 </script>
 
 <template>
-   <NuxtLayout>
-      <NuxtPage />
-   </NuxtLayout>
+   <Html :class="{ dark: theme }">
+      <NuxtLayout>
+         <NuxtPage />
+      </NuxtLayout>
+   </Html>
 </template>

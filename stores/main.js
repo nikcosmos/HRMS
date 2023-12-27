@@ -3,8 +3,10 @@ export const useMainStore = defineStore('main', () => {
    const burger = ref(false);
    const openBurger = () => (burger.value = true);
    const closeBurger = () => (burger.value = false);
-
-   return { burger, openBurger, closeBurger };
+   // DarkTheme
+   const theme = ref(true);
+   const setTheme = (val) => (theme.value = val);
+   return { burger, openBurger, closeBurger, theme, setTheme };
 });
 
 if (import.meta.hot) {
