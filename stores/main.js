@@ -3,9 +3,11 @@ export const useMainStore = defineStore('main', () => {
    const burger = ref(false);
    const openBurger = () => (burger.value = true);
    const closeBurger = () => (burger.value = false);
-   // DarkTheme
-   const theme = ref(true);
-   const setTheme = (val) => (theme.value = val);
+   // Theme
+   const theme = useCookie('theme');
+   const setTheme = (val) => {
+      theme.value = val.target.checked;
+   };
    return { burger, openBurger, closeBurger, theme, setTheme };
 });
 
