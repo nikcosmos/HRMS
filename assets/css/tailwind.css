@@ -5,7 +5,7 @@
       /* Light colors */
       @apply from-green-50 to-blue-50 text-stone-800;
       /* Dark colors */
-      @apply dark:from-slate-900 dark:to-gray-900 dark:text-stone-200;
+      @apply dark:from-zinc-900 dark:to-zinc-900 dark:text-stone-200;
    }
 }
 @tailwind components;
