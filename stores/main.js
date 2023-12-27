@@ -3,8 +3,12 @@ export const useMainStore = defineStore('main', () => {
    const burger = ref(false);
    const openBurger = () => (burger.value = true);
    const closeBurger = () => (burger.value = false);
-
-   return { burger, openBurger, closeBurger };
+   // Theme
+   const theme = useCookie('theme');
+   const setTheme = (val) => {
+      theme.value = val.target.checked;
+   };
+   return { burger, openBurger, closeBurger, theme, setTheme };
 });
 
 if (import.meta.hot) {
