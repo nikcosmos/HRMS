@@ -1,4 +1,3 @@
-li
 <script setup></script>
 
 <template>
