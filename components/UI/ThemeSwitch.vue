@@ -14,7 +14,7 @@ const { theme } = storeToRefs(store);
    >
       <span class="rounded-full p-1.5 hover:bg-gray-200 dark:hover:bg-gray-800">
          <IconSun v-if="!theme" />
-         <IconMoon v-if="theme" />
+         <IconMoon v-else />
       </span>
    </Switch>
 </template>
