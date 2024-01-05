@@ -14,7 +14,7 @@
             <div>
                <label for="email"></label>
                <input
-                  class="w-40 575:w-full focus:outline-none border-0 rounded-full placeholder-gray-400 dark:placeholder-gray-300 px-3.5 py-2.5 shadow-sm bg-white dark:bg-gray-900 text-gray-900 dark:text-white ring-1 ring-inset ring-gray-300 dark:ring-gray-700 focus:ring-2 focus:ring-primary-500 dark:focus:ring-primary-400 invalid:ring-red-400"
+                  class="w-40 575:w-full focus:outline-none border-0 rounded-full placeholder-gray-400 dark:placeholder-gray-300 px-3.5 py-2.5 shadow-sm bg-white dark:bg-gray-900 text-gray-900 dark:text-white ring-1 ring-inset ring-gray-300 dark:ring-gray-700 focus:ring-2 focus:ring-primary-500 dark:focus:ring-primary-400 invalid:ring-red-400 dark:invalid:ring-red-500"
                   type="email"
                   id="email"
                   name="email"
