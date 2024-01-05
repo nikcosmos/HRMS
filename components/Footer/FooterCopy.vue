@@ -1,10 +1,4 @@
 <script setup>
-import { Switch } from '@headlessui/vue';
-
-const store = useMainStore();
-const { setTheme } = store;
-const { theme } = storeToRefs(store);
-
 const year = ref(new Date().getFullYear());
 </script>
 
@@ -18,16 +12,7 @@ const year = ref(new Date().getFullYear());
          </p>
       </div>
       <div class="575:flex-1 flex items-center justify-center 575:justify-end gap-x-1.5">
-         <Switch
-            v-model="theme"
-            class="relative inline-flex h-6 w-11 items-center rounded-full"
-            @change="setTheme"
-         >
-            <span class="rounded-full p-1.5 hover:bg-gray-200 dark:hover:bg-gray-800">
-               <IconSun v-if="!theme" />
-               <IconMoon v-if="theme" />
-            </span>
-         </Switch>
+         <UIThemeSwitch />
       </div>
    </div>
 </template>
