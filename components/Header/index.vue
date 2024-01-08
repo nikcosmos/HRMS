@@ -8,7 +8,7 @@ const { theme } = storeToRefs(store);
 <template>
    <div class="container flex h-32 max-w-7xl items-center justify-around">
       <NuxtLink to="/" class="h-full w-auto">
-         <IconLogo class="h-full object-contain" />
+         <IconLogo class="h-full object-contain dark:fill-stone-200" />
       </NuxtLink>
       <HeaderNavigation />
       <button
@@ -19,8 +19,7 @@ const { theme } = storeToRefs(store);
             ><img src="/images/arrow-right.svg" alt="arrow-right"
          /></span>
       </button>
-      <input :checked="theme" @change="setTheme" type="checkbox" name="theme" />
-
+      <UIThemeSwitch />
       <HeaderLanguage />
    </div>
 </template>

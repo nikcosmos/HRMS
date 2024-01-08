@@ -3,8 +3,8 @@
 <template>
    <div class="max-w-sx flex flex-col items-center gap-10 575:max-w-sm">
       <div class="space-y-5 text-center font-bold">
-         <div class="flex items-center justify-center text-16 575:text-20">
-            <IconLogo />
+         <div class="flex items-center justify-center text-16 dark:text-stone-200 575:text-20">
+            <IconLogo class="dark:fill-stone-200" />
          </div>
          <p class="text-20 575:text-24">Get started to up your business with effective HRMS</p>
       </div>
