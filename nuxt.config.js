@@ -1,12 +1,19 @@
 // Config
 const runtimeConfig = {
    public: {
+      // baseUrl: 'http://localhost:3000/',
       API: 'https://exampleAPI.com',
    },
 };
 
 // Modules
-const modules = ['@nuxtjs/google-fonts', '@nuxtjs/tailwindcss', 'nuxt-headlessui', '@pinia/nuxt'];
+const modules = [
+   '@nuxtjs/google-fonts',
+   '@nuxtjs/tailwindcss',
+   'nuxt-headlessui',
+   '@pinia/nuxt',
+   '@nuxtjs/i18n',
+];
 
 // Fonts
 const googleFonts = {
@@ -50,6 +57,25 @@ const vue = {
 // Render Ruls
 const routeRules = {};
 
+// Locales
+const i18n = {
+   locales: [
+      {
+         code: 'ua',
+         iso: 'ua',
+      },
+      {
+         code: 'en',
+         iso: 'en',
+      },
+   ],
+   defaultLocale: 'ua',
+   baseUrl: runtimeConfig.public.baseUrl,
+   detectBrowserLanguage: false,
+   vueI18n: './i18n.config.js',
+   strategy: 'prefix_except_default',
+};
+
 export default defineNuxtConfig({
    devtools: { enabled: false },
    googleFonts,
@@ -61,4 +87,5 @@ export default defineNuxtConfig({
    imports,
    vue,
    routeRules,
+   i18n,
 });
