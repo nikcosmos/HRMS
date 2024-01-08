@@ -1,6 +1,5 @@
 <script setup>
 import { Switch } from '@headlessui/vue';
-
 const store = useMainStore();
 const { setTheme } = store;
 const { theme } = storeToRefs(store);
@@ -8,6 +7,7 @@ const { theme } = storeToRefs(store);
 
 <template>
    <Switch
+      id="1"
       v-model="theme"
       class="relative inline-flex h-6 w-11 items-center rounded-full"
       @change="setTheme"
