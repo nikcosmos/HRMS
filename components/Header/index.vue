@@ -12,5 +12,6 @@
       </button>
       <UIThemeSwitch />
       <HeaderLanguage />
+      <HeaderBurger />
    </div>
 </template>
