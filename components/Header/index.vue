@@ -7,8 +7,8 @@ const { theme } = storeToRefs(store);
 
 <template>
    <div class="container flex h-32 max-w-7xl items-center justify-around">
-      <NuxtLink to="/" class="h-full w-auto"
-         ><img src="/images/hrms-green.svg" alt="logo" class="h-full object-contain" />
+      <NuxtLink to="/" class="h-full w-auto">
+         <IconLogo class="h-full object-contain" />
       </NuxtLink>
       <HeaderNavigation />
       <button
