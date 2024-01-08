@@ -1,7 +1,7 @@
 // Config
 const runtimeConfig = {
    public: {
-      baseUrl: 'http://localhost:3000/',
+      // baseUrl: 'http://localhost:3000/',
       API: 'https://exampleAPI.com',
    },
 };
