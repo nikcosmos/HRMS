@@ -1,5 +1,3 @@
-<script setup></script>
-
 <template>
    <div class="max-w-full">
       <div class="border-t border-gray-300 dark:border-gray-700">

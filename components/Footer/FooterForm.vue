@@ -1,5 +1,3 @@
-<script setup></script>
-
 <template>
    <div class="flex max-w-sm flex-col items-center gap-10">
       <div class="space-y-5 text-center font-bold">
@@ -20,11 +18,12 @@
                   :placeholder="$t('footer.placeholder')"
                />
             </div>
-            <UIButton
+            <button
                type="submit"
                class="max-w-[220px] rounded-full bg-cyan-700 px-2.5 py-3 text-14 font-semibold text-white shadow-md transition duration-300 hover:bg-cyan-900 focus:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-orange-500 active:scale-95 dark:bg-cyan-100 dark:text-gray-900 dark:hover:bg-blue-200 dark:focus-visible:ring-orange-400 575:text-16"
-               >{{ $t('footer.button') }}
-            </UIButton>
+            >
+               {{ $t('footer.button') }}
+            </button>
          </form>
       </div>
    </div>
