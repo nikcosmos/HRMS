@@ -4,5 +4,16 @@
       "title": "Manage Human Resources with Comfort",
       "descr": "Made by people for people",
       "button": "Try"
+   },
+   "footer": {
+      "copy": "Copyright © 2024. All rights reserved.",
+      "action": "Get started to up your business with effective HRMS",
+      "button": "Contact us",
+      "placeholder": "Enter your email",
+      "welcome": "Welcome",
+      "benefits": "Benefits",
+      "pricing": "Pricing",
+      "review": "Review",
+      "faq": "FAQ"
    }
 }

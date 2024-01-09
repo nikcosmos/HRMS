@@ -6,7 +6,7 @@
          <div class="flex items-center justify-center text-16 dark:text-stone-200 575:text-20">
             <IconLogo class="dark:fill-stone-200" />
          </div>
-         <p class="text-20 575:text-24">Get started to up your business with effective HRMS</p>
+         <p class="text-20 575:text-24">{{ $t('footer.action') }}</p>
       </div>
       <div>
          <form class="flex flex-col items-center justify-center gap-5 575:flex-row">
@@ -17,13 +17,13 @@
                   type="email"
                   id="email"
                   name="email"
-                  placeholder="Enter your email"
+                  :placeholder="$t('footer.placeholder')"
                />
             </div>
             <UIButton
                type="submit"
                class="max-w-[220px] rounded-full bg-cyan-700 px-2.5 py-3 text-14 font-semibold text-white shadow-md transition duration-300 hover:bg-cyan-900 focus:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-orange-500 active:scale-95 dark:bg-cyan-100 dark:text-gray-900 dark:hover:bg-blue-200 dark:focus-visible:ring-orange-400 575:text-16"
-               >Contact us
+               >{{ $t('footer.button') }}
             </UIButton>
          </form>
       </div>
