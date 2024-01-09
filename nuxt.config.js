@@ -1,7 +1,7 @@
 // Config
 const runtimeConfig = {
    public: {
-      // baseUrl: 'http://localhost:3000/',
+      baseUrl: 'https://hrms-develop.vercel.app',
       API: 'https://exampleAPI.com',
    },
 };
