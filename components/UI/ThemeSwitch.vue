@@ -8,6 +8,7 @@ const { theme } = storeToRefs(store);
 
 <template>
    <Switch
+      id="themeSwitch"
       v-model="theme"
       class="relative inline-flex h-6 w-11 items-center rounded-full"
       @change="setTheme"

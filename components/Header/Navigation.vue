@@ -1,11 +1,10 @@
-
 <template>
-    <div>
-        <nav class="flex ring-1 ring-gray-800 px-3 rounded-full">
-            <NuxtLink to="#" class="font-medium py-2 px-4">Features</NuxtLink>
-            <NuxtLink to="#" class="font-medium py-2 px-4">Pricing</NuxtLink>
-            <NuxtLink to="#" class="font-medium py-2 px-4">Testmonials</NuxtLink>
-            <NuxtLink to="#" class="font-medium py-2 px-4">FAQ</NuxtLink>
-        </nav>
-    </div>
+   <div>
+      <nav class="flex rounded-full px-3 ring-1 ring-gray-800">
+         <NuxtLink to="#" class="px-4 py-2 font-medium">Features</NuxtLink>
+         <NuxtLink to="#" class="px-4 py-2 font-medium">Pricing</NuxtLink>
+         <NuxtLink to="#" class="px-4 py-2 font-medium">Testmonials</NuxtLink>
+         <NuxtLink to="#" class="px-4 py-2 font-medium">FAQ</NuxtLink>
+      </nav>
+   </div>
 </template>
